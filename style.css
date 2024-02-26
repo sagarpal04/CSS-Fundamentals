@@ -7,6 +7,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 .container {
   /* margin: (top and bottom) (left and right) */
@@ -148,6 +149,14 @@ a:active {
   width: 100%;
   height: auto;
 }
+.like-button {
+  font-size: 20px;
+  padding: 18px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
 /* Resolving conflicts */
 /* #copyright {
   color: red;
@@ -161,4 +170,4 @@ a:active {
 footer p {
   color: green !important;
 } */
-/* Done till 38 ✅ */
+/* Done till 39 ✅ */
