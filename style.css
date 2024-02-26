@@ -20,10 +20,18 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 nav {
   font-size: 18px;
+}
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  display: inline-block;
+  margin-right: 0;
 }
 article {
   margin-bottom: 60px;
@@ -153,4 +161,4 @@ a:active {
 footer p {
   color: green !important;
 } */
-/* Done till 36 ✅ */
+/* Done till 38 ✅ */
